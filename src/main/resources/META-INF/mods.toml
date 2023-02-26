@@ -1,0 +1,43 @@
+modLoader="javafml" #mandatory
+
+loaderVersion="[36,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+
+license="All rights reserved"
+
+[[mods]] #mandatory
+
+modId="legendsmod" #mandatory
+
+version="${file.jarVersion}" #mandatory
+
+displayName="Legends Mod" #mandatory
+
+logoFile="legends_logo.png" #optional
+# A text field displayed in the mod UI
+credits="a custom mod for the Legends of Middle Earth server" #optional
+# A text field displayed in the mod UI
+authors="ReinierTheGhost(code) Jay1004(resource)" #optional
+# The description text for the mod (multi line!) (#mandatory)
+description='''
+This mod is for the Legends of Middle Earth server, to add unique items blocks and entities to the server.
+'''
+# A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
+[[dependencies.legendsmod]] #optional
+    # the modid of the dependency
+    modId="forge" #mandatory
+    # Does this dependency have to exist - if not, ordering below must be specified
+    mandatory=true #mandatory
+    # The version range of the dependency
+    versionRange="[36,)" #mandatory
+    # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
+    ordering="NONE"
+    # Side this dependency is applied on - BOTH, CLIENT or SERVER
+    side="BOTH"
+# Here's another dependency
+[[dependencies.legendsmod]]
+    modId="minecraft"
+    mandatory=true
+# This version range declares a minimum of the current minecraft version up to but not including the next major version
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"

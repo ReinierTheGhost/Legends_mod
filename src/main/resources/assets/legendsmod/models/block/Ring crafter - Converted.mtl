@@ -1,0 +1,6 @@
+# Made in Blockbench 4.6.4
+newmtl m_4a9c7e56-b4de-b4bb-59cb-73612eb7877a
+map_Kd ring -crafter 
+newmtl m_a61d825e-61ac-7b60-ee18-ed0d4b37b967
+map_Kd gems_ring_crafter 
+newmtl none

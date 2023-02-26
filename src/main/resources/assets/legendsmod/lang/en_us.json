@@ -1,0 +1,22 @@
+{
+	"itemGroup.legends_tab": "Legends of Middle Earth",
+
+	"block.legendsmod.legendsblock": "Legends of Middle Earth",
+	"block.legendsmod.woodbeamoak": "Oak log beam",
+	"block.legendsmod.bigflowerpot_legends": "Legends big flowerpot",
+	
+	"item.legendsmod.rune_arcane": "Arcane rune",
+	"item.legendsmod.rune_sky": "Sky rune",
+	"item.legendsmod.rune_water": "Water rune",
+	"item.legendsmod.rune_fire": "Fire rune",
+	"item.legendsmod.rune_nature": "Nature rune",
+	"item.legendsmod.ring_base_silver": "Silver base ring",
+	"item.legendsmod.ring_base_gold": "Gold base ring",
+	"item.legendsmod.ring_mastery_air": "Air mastery ring",
+	"item.legendsmod.ring_mastery_fire": "Fire mastery ring",
+	"item.legendsmod.ring_mastery_earth": "Earth mastery ring",
+	"item.legendsmod.ring_elemental": "Elemental ring",
+	"item.legendsmod.ring_air": "Air ring",
+	"item.legendsmod.ring_fire": "Fire ring",
+	"item.legendsmod.ring_earth": "Earth ring"
+}
